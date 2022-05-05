@@ -1,0 +1,38 @@
+header{
+position:fixed;
+z-index: 999;
+top: 0;
+left: 0;
+right: 0;
+height: 70px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 30px;
+background: transparent;
+}
+header.black{
+    background-color: #141414;
+}
+.Header--logo {
+    height: 25px;
+}
+.Header--logo img{
+    height: 100%;
+}
+.Header--user{
+    height: 45px;
+   }
+.Header--user img{
+    display: inline-block;
+    height: 100%;
+    transform: scale(0.9);
+    padding: left 2px, right 2px,top 2px; 
+    background-color: lightblue;
+    border-radius: 3px;
+}
+.Header--user img:hover{
+    transform: scale(1);
+    transition: all ease 0.4s;
+    
+}
