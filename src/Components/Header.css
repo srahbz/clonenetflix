@@ -13,6 +13,7 @@ background: transparent;
 }
 header.black{
     background-color: #141414;
+    transition: all ease 0.5s;
 }
 .Header--logo {
     height: 25px;

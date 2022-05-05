@@ -1,9 +1,9 @@
 import React from 'react'
 import './Header.css'
 
-export default ()=>{
+export default ({black})=>{
     return(
-        <header className='black'>
+        <header className={black ? 'black': ''}>
             <div className='Header--logo'>
                 <a href='/'>
                     <img src='https://logodownload.org/wp-content/uploads/2014/10/netflix-logo.png' alt='logo!'></img>
