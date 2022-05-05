@@ -17,8 +17,14 @@ export default () => {
   }, []);
 
   return(
-    <div>
-      Hello World
+    <div className="page">
+     <section className="lists">
+       {movieList.map((item,key)=>(
+         <div>
+           {item.title}
+         </div>
+       ))}
+     </section>
     </div>
   );
 }
