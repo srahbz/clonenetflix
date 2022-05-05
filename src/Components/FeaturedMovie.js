@@ -4,7 +4,7 @@ import './FeaturedMovie.css'
 export default () => {
     return(
         <div>
-            PRINCIPAl
+            PRINCIPAL
         </div>
     )
 }
