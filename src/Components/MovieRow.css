@@ -4,3 +4,26 @@
 .movieRow h2{
     margin:0px 0px 0px 30px;
 }
+.movieRow--listarea{
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+.movieRow--list{
+    width: 999932324px;
+}
+.movieRow--item{
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+}
+.movieRow--item img{
+    width: 100%;
+    /* vai ter 100% do espaco p ocupar mas vai ocupar só 90 */
+    transform: scale(0.9);
+    transition: all ease 0.4s;
+}
+.movieRow--item img:hover{
+    transform: scale(1);
+    box-shadow: 0px 0px 10px 2px darkred;
+    
+}
